@@ -7,3 +7,5 @@ async function run() {
 }
 
 run().catch((error) => core.setFailed(error.message));
+
+// bundled with ncc build src/main.js -o dist
